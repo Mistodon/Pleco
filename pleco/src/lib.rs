@@ -79,6 +79,10 @@
 #![feature(cfg_target_feature, target_feature)]
 #![feature(stdsimd)]
 
+#![feature(conservative_impl_trait)]
+#![allow(unknown_lints)]
+#![allow(clippy)]
+
 #![allow(dead_code)]
 
 #[macro_use]

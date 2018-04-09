@@ -21,6 +21,10 @@
 
 #![allow(dead_code)]
 
+#![allow(unknown_lints)]
+#![allow(clippy)]
+#![feature(pointer_methods)]
+
 #![feature(ptr_internals)]
 #![feature(integer_atomics)]
 #![feature(test)]
